@@ -13,19 +13,17 @@ body, ul {
   /* Stile per il contenitore principale */
   .container {
     max-width: 960px;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 20px;
-    background-image: url("path/to/wood_texture.jpg");
-    background-repeat: repeat;
     border: 2px solid #333;
     border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 20, 136, 0.89);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
   
   /* Stile per il contenuto */
   .col {
-    background-color: #ffc0c0;
+    background-color: #1c91ff;
     padding: 20px;
     border-radius: 4px;
   }
@@ -38,25 +36,28 @@ body, ul {
   
   /* Stile per il paragrafo di descrizione */
   p {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 20px;
+    color: #fff;
+    font-style: italic;
   }
   
   /* Stile per la lista della spesa */
-  ul {
-    list-style-type: disc;
-    font-size: 16px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-  }
+    ul {
+        list-style-type: none;
+        font-size: 16px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
   
   /* Stile per gli elementi della lista */
   ul li {
+    font-size: 20px;
+    font-weight: 700;
     margin-bottom: 5px;
     background-color: #fff;
     border-radius: 8px;
     padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
-  
